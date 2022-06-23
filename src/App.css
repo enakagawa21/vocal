@@ -7,10 +7,10 @@
    
    html{
      scroll-behavior: smooth;
-     scroll-padding-top: 80px;
+     scroll-padding-top: 100px;
      
 
    }
-   .App{
+   /* .App{
     background: linear-gradient(90deg, #393a3a -100%, #ffffff 50%,#393a3a 190%);
-   }
+   } */

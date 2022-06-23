@@ -41,9 +41,9 @@ To request a Free Estimate, please complete the following form and we will get b
       <input type="email" name="user_name" className='form-input' placeholder='Email Name' />
       
       
-      <textarea name="message" className='form-input' rows={4}/>
+      <textarea name="message" className='form-input' rows={4} placeholder="Message"/>
       <input type="submit" name="message" className='form-submit' />
-    </form>
+    </form>     
       
 
 </div>

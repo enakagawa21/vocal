@@ -45,6 +45,7 @@
 	max-width: 1080px;
 	letter-spacing: 0.25rem;
 	border-radius: 0 0 0 20px;
+	padding-bottom: 25px;
 }
 
 .hero-container > p {

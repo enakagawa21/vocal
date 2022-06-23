@@ -34,8 +34,6 @@
 	align-items: center;
 	height: 80px;
 	border-bottom: 2px solid transparent;
-	border-top: 2px solid transparent;
-	width: 150px;
 }
 
 .nav-item:hover {
