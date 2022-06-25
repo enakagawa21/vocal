@@ -19,7 +19,7 @@
        color:#252e48;
   }
    h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     letter-spacing: 1rem;
     text-align: center;
     font-family: "Koulen", cursive;
@@ -37,8 +37,6 @@
     font-size: 2rem;
     color:#ffffff;
     font-family: "Koulen", cursive;
-    letter-spacing: .25rem;
-
   }
    /* .App{
     background: linear-gradient(90deg, #393a3a -100%, #ffffff 50%,#393a3a 190%);

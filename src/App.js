@@ -2,7 +2,6 @@ import Hero from '../src/components/hero/Hero'
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import CardDisplay from './components/cards/CardDisplay'
-import Services from './components/services/Services';
 import Footer from './components/footer/Footer';
 import Form from './components/form/Form';
 import Doors from './components/doors/Doors'
