@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { cardData } from "./Data";
 import Slider from "react-slick";
-import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import { useRef } from "react";
 
 function Doors() {
@@ -13,8 +12,8 @@ function Doors() {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     initialSlide: 0,
     responsive: [
       {
@@ -49,15 +48,18 @@ function Doors() {
 
   return (
     <div className="doors" id="services">
-      <div className="header">
-        <h1>SERVICES</h1>
-      </div>
-      <div className="buttons">
+      
+      <div className="btn-header">
+        <h2>Doors</h2>
+        <div className="buttons">
         <div className="prev-btn" onClick={() => sliderRef.current.slickPrev()}>
           Prev
         </div>
         <div className="next-btn" onClick={() => sliderRef.current.slickNext()}>
           Next
+        </div>
+
+
         </div>
       </div>
 

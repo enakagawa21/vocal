@@ -4,14 +4,6 @@
 	background: transparent;
 }
 
-h1 {
-	font-size: 5rem;
-	letter-spacing: 2rem;
-	text-align: center;
-	font-family: "Koulen", cursive;
-     color:#252e48;
-}
-
 .cards__container {
 	display: flex;
 	flex-flow: column;

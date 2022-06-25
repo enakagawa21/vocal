@@ -2,10 +2,10 @@ import Hero from '../src/components/hero/Hero'
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import CardDisplay from './components/cards/CardDisplay'
-import Doors from './components/doors/Doors';
+import Services from './components/services/Services';
 import Footer from './components/footer/Footer';
 import Form from './components/form/Form';
-
+import Doors from './components/doors/Doors'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
 <Navbar />
 <Hero id='#' />
 <CardDisplay id='about' />
-<Doors id='services'/>
+<Doors id='servcices'/>
 <Form id='contact' />
 <Footer id='footer' />
 

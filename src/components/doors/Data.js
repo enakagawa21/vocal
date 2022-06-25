@@ -19,60 +19,14 @@ export const cardData = [
 },
 {
     id:4,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
+    title: 'Hollow Metal Doors',
+    linkImg: 'images/hollowMetalDoors/homepageNewDoorsSet.jpeg',
     description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
 },
 {
     id:5,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
+    title: 'Storefront',
+    linkImg: 'images/storefrontAndGlassAluminumDoors/aluminumGlassDoors.webp',
     description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
 },
-{
-    id:6,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
-    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
-},
-{
-    id:7,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
-    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
-},
-{
-    id:8,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
-    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
-},
-{
-    id:9,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
-    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
-},
-{
-    id:10,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
-    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
-},
-{
-    id:11,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
-    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
-},
-{
-    id:12,
-    title: 'Roll-Up Doors',
-    linkImg: 'images/AutomaticDoors/AutoSwingDoors.jpeg',
-    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
-},
-
-
-
-
 ]

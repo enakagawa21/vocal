@@ -13,10 +13,11 @@ function Hero() {
 						onClick={() => window.scrollTo(0, 0)}
 						className="hero-img"
 					>
+
 						<img
 							src="./images/logo-img-large.svg"
 							alt="E-logo"
-              className='hero-img'
+             				className='hero-img'
 						/>
 					</a>
 				</div>
