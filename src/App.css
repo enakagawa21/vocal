@@ -33,6 +33,13 @@
   h4 {
     font-size: 2rem;
   }
+  h5{
+    font-size: 2rem;
+    color:#ffffff;
+    font-family: "Koulen", cursive;
+    letter-spacing: .25rem;
+
+  }
    /* .App{
     background: linear-gradient(90deg, #393a3a -100%, #ffffff 50%,#393a3a 190%);
    } */

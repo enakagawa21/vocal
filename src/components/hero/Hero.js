@@ -1,34 +1,49 @@
 import React from 'react'
-import { Button } from '../button/Button'
+
 import './Hero.css'
 
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
+import { useRef } from "react";
+import { heroData } from "./HeroData";
+
+
+
+
 function Hero() {
-  return (
-    <>
-      <div className='hero-container'>
+	
+	  const settings = {
+		dots: false,
+		infinite: true,
+		speed: 2000,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		speed: 5000,
+  		autoplay: true,
+  		fade: true,
+		variableWidth: false,
+		arrows:true,
 
-      <div className='hero-img-container'>
-					<a
-						href="#"
-						onClick={() => window.scrollTo(0, 0)}
-						className="hero-img"
-					>
+	  };
 
-						<img
-							src="./images/logo-img-large.svg"
-							alt="E-logo"
-             				className='hero-img'
-						/>
-					</a>
-				</div>
-          <h2>Proudly Serving All of California</h2>
+	  const heroSliderRef = useRef(null);
+	  console.log(heroSliderRef.current);
+
+	  return (
+		<div>
+		  <Slider ref={heroSliderRef} {...settings}>
+        {heroData.map((item) => (
+          <div className="hero-container">
+            <div className="hero-img">
+              <img src={item.linkImg} />
   
-
-
-
-      </div>
-    </>
-  )
-}
-
+            </div>
+          </div>
+        ))}
+      </Slider>
+		</div>
+	  );
+	}
+  
 export default Hero
