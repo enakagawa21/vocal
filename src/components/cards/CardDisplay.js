@@ -10,40 +10,27 @@ function Cards() {
           <ul className='cards__items'>
 
             <CardItem
-              src='images/img-5.jpg'
+              src='images/automaticDoors/AutoSwingDoors.jpeg'
               text='Description goes here. Description goes here. Description goes here. Description goes here. '
-              label='Job 1'
+              label='Job Name'
               path='#'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/hollowMetalDoors/steelDoor1.jpeg'
               text='Description goes here. Description goes here. Description goes here. Description goes here.'
-              label='Job 2'
+              label='Job Name'
+              path='#'
+            />
+            <CardItem
+              src='images/commercialRollUpDoors/fireRatedHeavyDutyRollingSteelDoors.jpeg'
+              text='Description goes here. Description goes here. Description goes here. Description goes here.'
+              label='Job Name'
               path='#'
             />
           </ul>
 
 
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-4.jpg'
-              text='Description goes here.'
-              label='Job 3'
-              path='#'
-            />
-            <CardItem
-              src='images/img-1.jpg'
-              text='Description goes here.'
-              label='Job 4'
-              path='#'
-            />
-            <CardItem
-              src='images/img-3.jpg'
-              text='Description goes here.'
-              label='Job 5'
-              path='#'
-            />
-          </ul>
+
 
 
         </div>

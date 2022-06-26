@@ -29,4 +29,22 @@ export const cardData = [
     linkImg: 'images/storefrontAndGlassAluminumDoors/aluminumGlassDoors.webp',
     description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
 },
+{
+    id:6,
+    title: 'Storefront',
+    linkImg: 'images/storefrontAndGlassAluminumDoors/aluminumGlassDoors.webp',
+    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
+},
+{
+    id:6,
+    title: 'Storefront',
+    linkImg: 'images/storefrontAndGlassAluminumDoors/aluminumGlassDoors.webp',
+    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
+},
+{
+    id:7,
+    title: 'Storefront',
+    linkImg: 'images/storefrontAndGlassAluminumDoors/aluminumGlassDoors.webp',
+    description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
+},
 ]
