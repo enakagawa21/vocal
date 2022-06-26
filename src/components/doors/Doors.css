@@ -1,8 +1,8 @@
 .doors {
   max-width: 100%;
   margin: 0 auto;
-  background-color: #ddeeee;
-  background-image: url("../../../public/images/005-subtle-light-patterns.jpg");
+  background-color: #eeeeee;
+  /* background-image: url("../../../public/images/005-subtle-light-patterns.jpg"); */
   padding:35px;
 }
 
