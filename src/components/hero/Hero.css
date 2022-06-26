@@ -3,7 +3,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom:55px;
+	padding-bottom: 55px;
+	background-color: #eeeeee;
+	background-image: url("../../../public/images/005-subtle-light-patterns.jpg");
+	width: 100%;
 }
 
 

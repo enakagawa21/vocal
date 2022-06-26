@@ -1,7 +1,6 @@
 .cards {
-	padding: 0 4rem;
-	background: #fff;
-	background: transparent;
+	padding:35px;
+	background-color: #eeeeee;
 }
 .card-header{
 	display: flex; 
@@ -38,12 +37,11 @@
 	display: flex;
 	flex-flow: column;
 	width: 100%;
-	box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-	box-shadow :(0 6px 20px rgba(56, 125, 255, 0.017));
-	box-shadow:(0 6px 20px rgba(56, 125, 255, 0.017));
+	/* box-shadow: 5px 10px 10px 5px #eeeeee; */
 	border-radius: 20px;
 	overflow: hidden;
 	text-decoration: none;
+	background-color: #ffffff;
 }
 
 .cards__item__pic-wrap {

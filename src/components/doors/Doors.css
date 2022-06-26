@@ -1,6 +1,9 @@
 .doors {
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
+  background-color: #ddeeee;
+  background-image: url("../../../public/images/005-subtle-light-patterns.jpg");
+  padding:35px;
 }
 
 .card {
@@ -10,7 +13,8 @@
   border-radius: 8px;
   overflow: hidden;
   padding: 2rem;
-  box-shadow: 5px 10px 10px 5px #dadadb;
+  /* box-shadow: 5px 10px 10px 5px #eeeeee; */
+  background-color: #ffffff;
   margin-bottom: 10px;
   height: 100%;
 }
@@ -39,7 +43,8 @@
   text-align: center;
   border-radius: 8px;
   margin-right:5px;
-  box-shadow: 2px 5px 5px 2px #dadadb;
+  background-color: #ffffff;
+  /* box-shadow: 2px 5px 5px 2px #dadadb; */
 
 }
 .next-btn {
@@ -49,7 +54,8 @@
   text-align: center;
   
   border-radius: 8px;
-  box-shadow: 2px 5px 5px 2px #dadadb;
+  background-color: #ffffff;
+  /* box-shadow: 2px 5px 5px 2px #dadadb; */
 }
 .description {
   margin-top: 10px;

@@ -5,6 +5,8 @@
 	align-items: center;
 	width: 100%;
 	padding-top: 30px;
+	padding-bottom: 50px;
+	background-color: #eeeeee;
 	
 }
 .form-wrapper {
@@ -23,7 +25,7 @@
 	margin-top: 10px;
 	line-height: 30px;
 	padding-left: 20px;
-	box-shadow: 5px 10px 10px 5px #dadadb;
+	box-shadow: 5px 10px 10px 5px #eeeeee;
 	border-radius: 10px;
 }
 
