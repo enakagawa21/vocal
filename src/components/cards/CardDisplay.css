@@ -1,9 +1,15 @@
 .cards {
-	padding: 4rem;
+	padding: 0 4rem;
 	background: #fff;
 	background: transparent;
 }
-
+.card-header{
+	display: flex; 
+	align-items: flex-start;
+	width:100%;
+	padding-left:35px;
+    
+}
 .cards__container {
 	display: flex;
 	flex-flow: column;
