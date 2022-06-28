@@ -13,8 +13,8 @@ export const cardData = [
 },
 {        
     id:3,
-    title: 'Garage',
-    linkImg: 'images/GarageDoors/garageGlassDoors2.jpeg',
+    title: 'Glass Aluminum Doors',
+    linkImg: 'images/storefrontAndGlassAluminumDoors/aluminumGlassDoors.webp',
     description: 'This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptions This will be descriptionsThis will be descriptionsThis will be descriptions'
 },
 {
