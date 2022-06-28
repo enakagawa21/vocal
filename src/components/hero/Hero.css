@@ -1,17 +1,27 @@
-
-.hero-img{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 55px;
-	background-color: #eeeeee;
-	/* background-image: url("../../../public/images/005-subtle-light-patterns.jpg"); */
-	width: 100%;
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  border: black solid 2px;
+  overflow: hidden;
+}
+.hero-text-wrapper {
+  z-index: 99;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width:80%;
+  transform: translate(-50%, -50%);
 }
 
-
-.hero-img img{
-	width:100%;
-	height: 70vh;
-	object-fit: cover;
+.hero-title {
+  color: #ffffff;
+  opacity: 0.7;
+  font-family: "Lato", sans-serif;
+  font-size: 4rem;
+  width: 100%;
 }

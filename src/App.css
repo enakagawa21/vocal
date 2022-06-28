@@ -3,6 +3,7 @@
      margin: 0;
      padding: 0;
      font-family: 'Poppins', sans-serif;
+     overflow-x: hidden;
    }
    
    html{
@@ -38,7 +39,8 @@
     color:#ffffff;
     font-family: "Koulen", cursive;
   }
-   /* .App{
-    background-image: url('../public/images/005-subtle-light-patterns.jpg');
-    
-   } */
+   .App{
+    /* background-image: url('../public/images/008-subtle-light-patterns.jpg');
+    background-repeat: repeat; */
+    background-color: #eeeeee;
+   }
