@@ -12,7 +12,7 @@ function App() {
 
 <Navbar />
 <Hero id='#' />
-<CardDisplay id='about' />
+{/* <CardDisplay id='about' /> */}
 <Doors id='servcices'/>
 <Form id='contact' />
 <Footer id='footer' />

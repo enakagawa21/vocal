@@ -9,7 +9,7 @@ export const heroData = [
         id:2,
         title: 'I want this to change',
         tagLine: 'Second slide......',
-        linkImg: 'images/img-3.jpg',
+        linkImg: 'images/img-5.jpg',
     },
     {
         id:3,
