@@ -5,12 +5,14 @@ import CardDisplay from './components/cards/CardDisplay'
 import Footer from './components/footer/Footer';
 import Form from './components/form/Form';
 import Doors from './components/doors/Doors'
+import Callnow from './components/callNow/Callnow';
 
 function App() {
   return (
     <div className="App">
 
 <Navbar />
+<Callnow />
 <Hero id='#' />
 {/* <CardDisplay id='about' /> */}
 <Doors id='servcices'/>
