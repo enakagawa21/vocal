@@ -58,7 +58,7 @@ const Hero = () => {
                   <h1>{slide.title}</h1>
                   <p>{slide.description}</p>
                   <hr />
-                  <button className='btn'>Get Started</button>
+                  <button className='btn'>{slide.buttonTxt}</button>
                 </div>
               </div>
             )}
