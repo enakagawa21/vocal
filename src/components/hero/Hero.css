@@ -15,9 +15,18 @@
   opacity: 0;
   transition: all 3s ease;
 }
-
-.current {
+.current{
   opacity: 1;
+  animation: fade-out 1s ease;
+  animation-delay: 9s;
+}
+@keyframes fade-out {
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity:0;
+  }
 }
 
 .arrow {
@@ -34,7 +43,7 @@
   top: 10%;
   left: 10%;
   transform: translate(0 -50%);
-  animation: slide-up 3s ease;
+  animation: slide-down 3s ease;
   animation-fill-mode: forwards;
   visibility: hidden;
   color: #252e48;
@@ -59,7 +68,7 @@
   top: 10%;
   left: 10%;
   transform: translate(0 -50%);
-  animation: slide-up 3s ease;
+  animation: slide-down 3s ease;
   animation-fill-mode: forwards;
   visibility: hidden;
   background: rgba(0, 0, 0, 0.5);
@@ -81,7 +90,7 @@
   margin-bottom: 10px;
 }
 
-@keyframes slide-up {
+@keyframes slide-down {
   0% {
     opacity: 0;
     top: 10%;
