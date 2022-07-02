@@ -9,7 +9,7 @@ const Hero = () => {
 
   const autoPlay = true;
   let slideInterval;
-  let IntervalTime = 9999;
+  let IntervalTime = 10000;
 
   const nextSlide = () => {
     setcurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);

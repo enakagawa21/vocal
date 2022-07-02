@@ -8,9 +8,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
-.App {
-  background-color: #eeeeee;
-}
 h1 {
   font-size: 3rem;
   letter-spacing: 1.25rem;
@@ -34,6 +31,9 @@ h4 {
   color: #ffffff;
   font-family: "Koulen", cursive;
   letter-spacing: 0.25rem;
+}
+.App {
+  background-color: #eeeeee;
 }
 .header {
   display: flex;
