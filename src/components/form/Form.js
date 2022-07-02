@@ -8,7 +8,7 @@ function Form() {
     <div className='form-container' id='contact'>
       <div className='about-header'>
         <hr></hr>
-        <h1>FREE ESTIMATES</h1>
+        <h2>FREE ESTIMATES</h2>
         <hr></hr>
       </div>
 
