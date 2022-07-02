@@ -6,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Form from './components/form/Form';
 import Doors from './components/doors/Doors'
 import Callnow from './components/callNow/Callnow';
+import About from "../src/components/about/About"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 <Navbar />
 <Callnow />
 <Hero id='#' /><br></br>
+<About />
 {/* <CardDisplay id='about' /> */}
 <Doors id='servcices'/>
 <Form id='contact' />

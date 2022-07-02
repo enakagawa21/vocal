@@ -51,6 +51,7 @@ function Doors() {
       
       <div className="btn-header">
         <h2>Doors</h2>
+        
         <div className="buttons">
         <div className="prev-btn" onClick={() => sliderRef.current.slickPrev()}>
           Prev
@@ -58,9 +59,11 @@ function Doors() {
         <div className="next-btn" onClick={() => sliderRef.current.slickNext()}>
           Next
         </div>
+        
 
 
         </div>
+        <> <hr></hr> </>
       </div>
 
       <Slider ref={sliderRef} {...settings}>
