@@ -6,9 +6,9 @@ function Form() {
 
   return (
     <div className='form-container' id='contact'>
-      <div className='about-header'>
-        <hr></hr>
-        <h2>FREE ESTIMATES</h2>
+      <div className='header'>
+        
+        <h2>CONTACT</h2>
         <hr></hr>
       </div>
 

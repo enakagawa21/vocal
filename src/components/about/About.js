@@ -4,10 +4,12 @@ function About() {
   return (
     <div>
       <div className='about-content' id='about'>
+        
         <div className='header'>
-          <hr></hr>
           <h2>About</h2>
+          <hr></hr>
         </div>
+
         <h3>Title One</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

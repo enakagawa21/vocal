@@ -4,24 +4,10 @@
     justify-content: center;
     align-items: center;
     width:100%;
-    padding: 25px 75px 25px 75px;
 }
-.about-content hr{
-    width:100%;
-    margin-bottom: 10px;
-}
+
 .about-content p{
     max-width: 75%;
     text-align: center;
     margin-bottom: 2rem;
-}
-.header{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    width:100%;
-    
-}
-.header hr{
-    margin-right: 20px;
 }

@@ -47,35 +47,34 @@ function Doors() {
   console.log(sliderRef.current);
 
   return (
-    <div className="doors" id="services">
-      
-      <div className="btn-header">
+    <div className='doors' id='services'>
+      <div className='header'>
         <h2>Doors</h2>
-        
-        <div className="buttons">
-        <div className="prev-btn" onClick={() => sliderRef.current.slickPrev()}>
-          Prev
-        </div>
-        <div className="next-btn" onClick={() => sliderRef.current.slickNext()}>
-          Next
-        </div>
-        
 
-
+        <div className='buttons'>
+          <div
+            className='prev-btn'
+            onClick={() => sliderRef.current.slickPrev()}>
+            Prev
+          </div>
+          <div
+            className='next-btn'
+            onClick={() => sliderRef.current.slickNext()}>
+            Next
+          </div>
         </div>
-        <> <hr></hr> </>
+          <hr></hr>
       </div>
 
       <Slider ref={sliderRef} {...settings}>
         {cardData.map((item) => (
-          <div className="card">
-            <div className="card-top">
+          <div className='card'>
+            <div className='card-top'>
               <img src={item.linkImg} />
-  
             </div>
-            <div className="card-bottom">
-            <h3>{item.title}</h3>
-              <p className="description">{item.description}</p>
+            <div className='card-bottom'>
+              <h3>{item.title}</h3>
+              <p className='description'>{item.description}</p>
             </div>
           </div>
         ))}
