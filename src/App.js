@@ -8,14 +8,14 @@ import Doors from './components/doors/Doors'
 import Callnow from './components/callNow/Callnow';
 import About from "../src/components/about/About"
 
-function App() {
-  return (
+function App(){
+  return(
     <div className="App">
 
 <Navbar />
 <Callnow />
 <Hero id='#' /><br></br>
-<About />
+<About id='about' />
 {/* <CardDisplay id='about' /> */}
 <Doors id='servcices'/>
 <Form id='contact' />

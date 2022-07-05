@@ -12,8 +12,8 @@ function Doors() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
@@ -49,7 +49,7 @@ function Doors() {
   return (
     <div className='doors' id='services'>
       <div className='header'>
-        <h2>Doors</h2>
+        <h2>Services</h2>
 
         <div className='buttons'>
           <div
