@@ -23,7 +23,7 @@ export const cardData = [
     {
         id: 4,
         title: "Specialty Doors",
-        linkImg: "images/hollowMetalDoors/homepageNewDoorsSet.jpeg",
+        linkImg: "images/hollowMetalDoors/HollowMetalDoors.webp",
         description:
             "NOTE: DISPLAY IN LIST FORM ADD LINK, Stainless Steel Doors, Fiber Glass Doors, Impact Doors, Fire Rated Metal and Wood Doors",
     },
