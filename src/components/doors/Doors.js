@@ -68,13 +68,24 @@ function Doors() {
 
       <Slider ref={sliderRef} {...settings}>
         {cardData.map((item) => (
-          <div className='card'>
+          <div className='card' >
             <div className='card-top'>
               <img src={item.linkImg} />
             </div>
             <div className='card-bottom'>
               <h3>{item.title}</h3>
-              <p className='description'>{item.description}</p>
+              <ul>
+              <li className='description'>{item.desc1}</li>
+              <li className='description'>{item.desc2}</li>
+              <li className='description'>{item.desc3}</li>
+              <li className='description'>{item.desc4}</li>
+              <li className='description'>{item.desc5}</li>
+              <li className='description'>{item.desc6}</li>
+              <li className='description'>{item.desc7}</li>
+
+
+              </ul>
+              <button url='espn.com' className="doors-btn">Read More</button>
             </div>
           </div>
         ))}

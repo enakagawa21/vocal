@@ -1,6 +1,4 @@
 import "./About.css";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 function About() {
   return (
@@ -21,8 +19,8 @@ function About() {
         <p>
           We offer same day service and provide emergency board up services to
           secure your building. Vo-CAL Doors has helped many of our customers
-          vision become a physical and operang reality. We respect and value
-          all our customers me and property and will do everything we can to
+          vision become a physical and operaing reality. We respect and value
+          all our customers time and property and will do everything we can to
           protect that.
         </p>
         <p>

@@ -6,9 +6,11 @@ import Footer from './components/footer/Footer';
 import Form from './components/form/Form';
 import Doors from './components/doors/Doors'
 import Callnow from './components/callNow/Callnow';
-import About from "../src/components/about/About"
+import About from "../src/components/about/About";
+
 
 function App(){
+
   return(
     <div className="App">
 

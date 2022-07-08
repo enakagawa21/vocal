@@ -1,7 +1,6 @@
 .doors {
   width: 95%;
   margin: 0 auto;
-  padding: 35px;
   overflow: hidden;
 }
 
@@ -11,8 +10,9 @@
   align-items: center;
   border-radius: 8px;
   padding: 2rem;
+  height: 550px;
   margin-bottom: 10px;
-  height: 400px;
+  text-align: center;
   /* box-shadow: 1px 3px 3px 1px #b1b1b1; */
   background-image: linear-gradient(
     rgba(255, 255, 255, 0),
@@ -50,9 +50,16 @@
 .description {
   margin-top: 10px;
   font-size: 12px;
+  list-style: none;
+  text-align: center;
 }
 .card-top > img {
   width: 100%;
   max-height: 200px;
   object-fit:contain;
+}
+.doors-btn{
+  padding:5px;
+  margin: 25px;
+  cursor: pointer;
 }
