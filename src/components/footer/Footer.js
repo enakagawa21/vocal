@@ -38,34 +38,20 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h4>About Us</h4>
-            <a href='/sign-up'>How it works</a>
             <a href='/'>Testimonials</a>
             <a href='/'>Careers</a>
-            <a href='/'>Investors</a>
-            <a href='/'>Terms of Service</a>
           </div>
+
           <div class='footer-link-items'>
             <h4>Contact Us</h4>
             <a href='/'>Contact</a>
             <a href='/'>Support</a>
-            <a href='/'>Destinations</a>
-            <a href='/'>Sponsorships</a>
           </div>
-        </div>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h4>Videos</h4>
-            <a href='/'>Submit Video</a>
-            <a href='/'>Ambassadors</a>
-            <a href='/'>Agency</a>
-            <a href='/'>Influencer</a>
-          </div>
+        
           <div class='footer-link-items'>
             <h4>Social Media</h4>
             <a href='/'>Instagram</a>
             <a href='/'>Facebook</a>
-            <a href='/'>Youtube</a>
-            <a href='/'>Twitter</a>
           </div>
         </div>
       </div>
